@@ -114,7 +114,7 @@ Small sample of FVC2002 DB3, one of the four datasets used in [FVC2002](http://b
 
 ### FVC2002 DB4 B
 
-Small sample of FVC2002 DB4, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
+Small sample of FVC2002 DB4, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition. This dataset is synthetic.
 
 - Size: 10 fingers x 8 impressions
 - Format: TIFF, 500dpi, 288x384px
@@ -160,7 +160,7 @@ Small sample of FVC2004 DB3, one of the four datasets used in [FVC2004](http://b
 
 ### FVC2004 DB4 B
 
-Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
+Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition. This dataset is synthetic.
 
 - Size: 10 fingers x 8 impressions
 - Format: TIFF, 500dpi, 288x384px
