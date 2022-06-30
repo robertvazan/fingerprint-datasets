@@ -4,7 +4,31 @@ Curated collection of human fingerprint datasets suitable for research and evalu
 
 - [Dataset classification](#dataset-classification)
 - [Public rectangular datasets](#public-rectangular-datasets)
+    - [FVC2000 DB1 B](#fvc2000-db1-b)
+    - [FVC2000 DB2 B](#fvc2000-db2-b)
+    - [FVC2000 DB3 B](#fvc2000-db3-b)
+    - [FVC2000 DB4 B](#fvc2000-db4-b)
+    - [FVC2002 DB1 B](#fvc2002-db1-b)
+    - [FVC2002 DB2 B](#fvc2002-db2-b)
+    - [FVC2002 DB3 B](#fvc2002-db3-b)
+    - [FVC2002 DB4 B](#fvc2002-db4-b)
+    - [FVC2004 DB1 B](#fvc2004-db1-b)
+    - [FVC2004 DB2 B](#fvc2004-db2-b)
+    - [FVC2004 DB3 B](#fvc2004-db3-b)
+    - [FVC2004 DB4 B](#fvc2004-db4-b)
 - [Restricted rectangular datasets](#restricted-rectangular-datasets)
+    - [FVC2000 DB1 A](#fvc2000-db1-a)
+    - [FVC2000 DB2 A](#fvc2000-db2-a)
+    - [FVC2000 DB3 A](#fvc2000-db3-a)
+    - [FVC2000 DB4 A](#fvc2000-db4-a)
+    - [FVC2002 DB1 A](#fvc2002-db1-a)
+    - [FVC2002 DB2 A](#fvc2002-db2-a)
+    - [FVC2002 DB3 A](#fvc2002-db3-a)
+    - [FVC2002 DB4 A](#fvc2002-db4-a)
+    - [FVC2004 DB1 A](#fvc2004-db1-a)
+    - [FVC2004 DB2 A](#fvc2004-db2-a)
+    - [FVC2004 DB3 A](#fvc2004-db3-a)
+    - [FVC2004 DB4 A](#fvc2004-db4-a)
 
 ## Dataset classification
 
@@ -20,19 +44,6 @@ By impression count:
 - pairset - There are two impressions per finger. All natural datasets and thus all large datasets are pairsets.
 
 ## Public rectangular datasets
-
-- [FVC2000 DB1 B](#fvc2000-db1-b)
-- [FVC2000 DB2 B](#fvc2000-db2-b)
-- [FVC2000 DB3 B](#fvc2000-db3-b)
-- [FVC2000 DB4 B](#fvc2000-db4-b)
-- [FVC2002 DB1 B](#fvc2002-db1-b)
-- [FVC2002 DB2 B](#fvc2002-db2-b)
-- [FVC2002 DB3 B](#fvc2002-db3-b)
-- [FVC2002 DB4 B](#fvc2002-db4-b)
-- [FVC2004 DB1 B](#fvc2004-db1-b)
-- [FVC2004 DB2 B](#fvc2004-db2-b)
-- [FVC2004 DB3 B](#fvc2004-db3-b)
-- [FVC2004 DB4 B](#fvc2004-db4-b)
 
 ### FVC2000 DB1 B
 
@@ -173,19 +184,6 @@ Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://b
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
 
 ## Restricted rectangular datasets
-
-- [FVC2000 DB1 A](#fvc2000-db1-a)
-- [FVC2000 DB2 A](#fvc2000-db2-a)
-- [FVC2000 DB3 A](#fvc2000-db3-a)
-- [FVC2000 DB4 A](#fvc2000-db4-a)
-- [FVC2002 DB1 A](#fvc2002-db1-a)
-- [FVC2002 DB2 A](#fvc2002-db2-a)
-- [FVC2002 DB3 A](#fvc2002-db3-a)
-- [FVC2002 DB4 A](#fvc2002-db4-a)
-- [FVC2004 DB1 A](#fvc2004-db1-a)
-- [FVC2004 DB2 A](#fvc2004-db2-a)
-- [FVC2004 DB3 A](#fvc2004-db3-a)
-- [FVC2004 DB4 A](#fvc2004-db4-a)
 
 ### FVC2000 DB1 A
 
