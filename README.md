@@ -17,6 +17,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB3 B](#fvc2004-db3-b)
     - [FVC2004 DB4 B](#fvc2004-db4-b)
 - [Restricted rectangular datasets](#restricted-rectangular-datasets)
+    - [CASIA-FingerprintV5](casia-fingerprintv5)
     - [FVC2000 DB1 A](#fvc2000-db1-a)
     - [FVC2000 DB2 A](#fvc2000-db2-a)
     - [FVC2000 DB3 A](#fvc2000-db3-a)
@@ -184,6 +185,18 @@ Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://b
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
 
 ## Restricted rectangular datasets
+
+### CASIA-FingerprintV5
+
+Large dataset collected by Chinese Academy of Sciences.
+
+- Size: 500 subjects x 8 fingers x 5 impressions
+- Format: BMP, 512dpi, 328x356px
+- License: "research and educational purposes", requires acknowledgement, notification about new papers
+- Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=7#/datasetDetail/7) (requires signup)
+- Population: Chinese graduate students, workers, waiters, ...
+- Enrollment: artificial difficulty
+- Sensor: "URU4000" (probably U.are.U 4000 by Digital Persona, optical, 512dpi)
 
 ### FVC2000 DB1 A
 
