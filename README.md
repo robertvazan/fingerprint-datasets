@@ -17,7 +17,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB3 B](#fvc2004-db3-b)
     - [FVC2004 DB4 B](#fvc2004-db4-b)
 - [Restricted rectangular datasets](#restricted-rectangular-datasets)
-    - [CASIA-FingerprintV5](casia-fingerprintv5)
+    - [CASIA-FingerprintV5](#casia-fingerprintv5)
     - [FVC2000 DB1 A](#fvc2000-db1-a)
     - [FVC2000 DB2 A](#fvc2000-db2-a)
     - [FVC2000 DB3 A](#fvc2000-db3-a)
