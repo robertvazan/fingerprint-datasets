@@ -32,6 +32,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB2 A](#fvc2004-db2-a)
     - [FVC2004 DB3 A](#fvc2004-db3-a)
     - [FVC2004 DB4 A](#fvc2004-db4-a)
+- [Uncategorized](#uncategorized)
 
 ## Dataset classification
 
@@ -345,6 +346,20 @@ The larger, hidden part of FVC2004 DB4, one of the four datasets used in [FVC200
 - Format: TIFF, 500dpi, 288x384px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
+
+## Uncategorized
+
+I did not have time to categorize sources listed below. Feel free to send PR.
+
+- [NIST Special Databases](https://www.nist.gov/itl/iad/image-group/resources/biometric-special-databases-and-software)
+- [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
+- [MINEX validation dataset](https://github.com/usnistgov/minex/tree/master/minexiii/validation/validation_imagery_raw)
+- [SOCOFing](https://www.kaggle.com/datasets/ruizgara/socofing)
+- [Tsinghua Palmprint Database](http://ivg.au.tsinghua.edu.cn/dataset/THUPALMLAB.php)
+- SFinGe
+- [L3 generator](https://andrewyzy.github.io/L3-SF/)
+- [random list](http://www.advancedsourcecode.com/fingerprintdatabase.asp)
+- other lists
 
 ## Contribute
 
