@@ -16,6 +16,8 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB2 B](#fvc2004-db2-b)
     - [FVC2004 DB3 B](#fvc2004-db3-b)
     - [FVC2004 DB4 B](#fvc2004-db4-b)
+    - [Neurotechnology CrossMatch](#neurotechnology-crossmatch)
+    - [Neurotechnology UareU](#neurotechnology-uareu)
 - [Restricted rectangular datasets](#restricted-rectangular-datasets)
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
     - [FVC2000 DB1 A](#fvc2000-db1-a)
@@ -183,6 +185,26 @@ Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://b
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2004/download.asp), [direct download](http://bias.csr.unibo.it/fvc2004/Downloads/DB4_B.zip)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
+
+### Neurotechnology CrossMatch
+
+One of two sample datasets distributed by Neurotechnology.
+
+- Size: 51 fingers x 8 impressions
+- Format: TIFF, 500dpi, 504x480px
+- License: unspecified, free download
+- Download: [download page](https://www.neurotechnology.com/download.html#databases), [direct download](https://www.neurotechnology.com/download/CrossMatch_Sample_DB.zip)
+- Sensor: optical, 500dpi, Verifier 300 by Cross Match Technologies
+
+### Neurotechnology UareU
+
+One of two sample datasets distributed by Neurotechnology.
+
+- Size: 65 fingers x 8 impressions
+- Format: TIFF, 500dpi, 326x357px
+- License: unspecified, free download
+- Download: [download page](https://www.neurotechnology.com/download.html#databases), [direct download](https://www.neurotechnology.com/download/UareU_sample_DB.zip)
+- Sensor: optical, 500dpi, U.are.U 4000 by DigitalPersona
 
 ## Restricted rectangular datasets
 
