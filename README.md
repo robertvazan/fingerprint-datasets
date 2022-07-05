@@ -18,8 +18,9 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB4 B](#fvc2004-db4-b)
     - [Neurotechnology CrossMatch](#neurotechnology-crossmatch)
     - [Neurotechnology UareU](#neurotechnology-uareu)
-- [Restricted rectangular datasets](#restricted-rectangular-datasets)
+- [Licensed rectangular datasets](#licensed-rectangular-datasets)
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
+    - [NIST Special Database 301 A](#nist-special-database-301-a)
     - [FVC2000 DB1 A](#fvc2000-db1-a)
     - [FVC2000 DB2 A](#fvc2000-db2-a)
     - [FVC2000 DB3 A](#fvc2000-db3-a)
@@ -32,15 +33,18 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB2 A](#fvc2004-db2-a)
     - [FVC2004 DB3 A](#fvc2004-db3-a)
     - [FVC2004 DB4 A](#fvc2004-db4-a)
+    - [NIST Special Database 301 B](#nist-special-database-301-b)
+- [Licensed pairsets](#licensed-pairsets)
+    - [NIST Special Database 300](#nist-special-database-300)
 - [Uncategorized](#uncategorized)
 
 ## Dataset classification
 
 By access:
 
-- public - Available for download by anyone without having to pay or sign restrictive license.
-- restricted - Available only after completing some kind of transaction, for example purchase of a product or signing restrictive agreement.
-- secret - Fingerprints themselves cannot be obtained, but developers can submit algorithms to be evaluated on the dataset.
+- public - Available for download by anyone without any explicit restrictions on use or redistribution. Where implicit copyright applies, publisher appears to be uninterested in enforcing it.
+- licensed - Available only after accepting license that contains confidentiality terms. This includes all datasets that cost money. License may include other restrictions in addition to confidentiality.
+- secret - Secret dataset itself cannot be obtained, but algorithms can be submitted for evaluation on the dataset. All competition datasets are secret to prevent cheating.
 
 By impression count:
 
@@ -54,9 +58,11 @@ By impression count:
 Small sample of FVC2000 DB1, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 300x300px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2000/download.asp), [direct download](http://bias.csr.unibo.it/fvc2000/Downloads/DB1_B.zip)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Population: white students
 - Enrollment: unmoderated
 - Sensor: optical, 500dpi, Secure Desktop Scanner by KeyTronic
@@ -66,9 +72,11 @@ Small sample of FVC2000 DB1, one of the four datasets used in [FVC2000](http://b
 Small sample of FVC2000 DB2, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 256x364px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2000/download.asp), [direct download](http://bias.csr.unibo.it/fvc2000/Downloads/DB2_B.zip)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Population: white students
 - Enrollment: unmoderated
 - Sensor: capacitive, 500dpi, TouchChip by ST Microelectronics
@@ -78,9 +86,11 @@ Small sample of FVC2000 DB2, one of the four datasets used in [FVC2000](http://b
 Small sample of FVC2000 DB3, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 448x478px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2000/download.asp), [direct download](http://bias.csr.unibo.it/fvc2000/Downloads/DB3_B.zip)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Population: white, 5-73 years
 - Enrollment: partial QA
 - Sensor: optical, 500dpi, DF-90 by Identicator Technology
@@ -90,9 +100,11 @@ Small sample of FVC2000 DB3, one of the four datasets used in [FVC2000](http://b
 Small sample of FVC2000 DB4, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition. This dataset is synthetic.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: synthetic plain
 - Format: TIFF, 500dpi, 240x320px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2000/download.asp), [direct download](http://bias.csr.unibo.it/fvc2000/Downloads/DB4_B.zip)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Generator: unknown
 
 ### FVC2002 DB1 B
@@ -100,9 +112,11 @@ Small sample of FVC2000 DB4, one of the four datasets used in [FVC2000](http://b
 Small sample of FVC2002 DB1, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 388x374px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2002/download.asp), [direct download](http://bias.csr.unibo.it/fvc2002/Downloads/DB1_B.zip)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 500dpi, TouchView II by Identix
@@ -112,9 +126,11 @@ Small sample of FVC2002 DB1, one of the four datasets used in [FVC2002](http://b
 Small sample of FVC2002 DB2, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 569dpi, 296x560px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2002/download.asp), [direct download](http://bias.csr.unibo.it/fvc2002/Downloads/DB2_B.zip)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 569dpi, FX2000 by Biometrika
@@ -124,9 +140,11 @@ Small sample of FVC2002 DB2, one of the four datasets used in [FVC2002](http://b
 Small sample of FVC2002 DB3, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 300x300px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2002/download.asp), [direct download](http://bias.csr.unibo.it/fvc2002/Downloads/DB3_B.zip)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: capacitive, 500dpi, 100 SC by Precise Biometrics
@@ -136,9 +154,11 @@ Small sample of FVC2002 DB3, one of the four datasets used in [FVC2002](http://b
 Small sample of FVC2002 DB4, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition. This dataset is synthetic.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: synthetic plain
 - Format: TIFF, 500dpi, 288x384px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2002/download.asp), [direct download](http://bias.csr.unibo.it/fvc2002/Downloads/DB4_B.zip)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v2.51
 
 ### FVC2004 DB1 B
@@ -146,9 +166,11 @@ Small sample of FVC2002 DB4, one of the four datasets used in [FVC2002](http://b
 Small sample of FVC2004 DB1, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 640x480px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2004/download.asp), [direct download](http://bias.csr.unibo.it/fvc2004/Downloads/DB1_B.zip)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 500dpi, V300 by CrossMatch
@@ -158,9 +180,11 @@ Small sample of FVC2004 DB1, one of the four datasets used in [FVC2004](http://b
 Small sample of FVC2004 DB2, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 328x364px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2004/download.asp), [direct download](http://bias.csr.unibo.it/fvc2004/Downloads/DB2_B.zip)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 500dpi, U.are.U 4000 by Digital Persona
@@ -170,9 +194,11 @@ Small sample of FVC2004 DB2, one of the four datasets used in [FVC2004](http://b
 Small sample of FVC2004 DB3, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 512dpi, 300x480px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2004/download.asp), [direct download](http://bias.csr.unibo.it/fvc2004/Downloads/DB3_B.zip)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: thermal sweep, 512dpi, FingerChip FCD4B14CB by Atmel
@@ -182,9 +208,11 @@ Small sample of FVC2004 DB3, one of the four datasets used in [FVC2004](http://b
 Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition. This dataset is synthetic.
 
 - Size: 10 fingers x 8 impressions
+- Impression type: synthetic plain
 - Format: TIFF, 500dpi, 288x384px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2004/download.asp), [direct download](http://bias.csr.unibo.it/fvc2004/Downloads/DB4_B.zip)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
 
 ### Neurotechnology CrossMatch
@@ -192,6 +220,7 @@ Small sample of FVC2004 DB4, one of the four datasets used in [FVC2004](http://b
 One of two sample datasets distributed by Neurotechnology.
 
 - Size: 51 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 504x480px
 - License: unspecified, free download
 - Download: [download page](https://www.neurotechnology.com/download.html#databases), [direct download](https://www.neurotechnology.com/download/CrossMatch_Sample_DB.zip)
@@ -202,32 +231,51 @@ One of two sample datasets distributed by Neurotechnology.
 One of two sample datasets distributed by Neurotechnology.
 
 - Size: 65 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 326x357px
 - License: unspecified, free download
 - Download: [download page](https://www.neurotechnology.com/download.html#databases), [direct download](https://www.neurotechnology.com/download/UareU_sample_DB.zip)
 - Sensor: optical, 500dpi, U.are.U 4000 by DigitalPersona
 
-## Restricted rectangular datasets
+## Licensed rectangular datasets
 
 ### CASIA-FingerprintV5
 
 Large dataset collected by Chinese Academy of Sciences.
 
 - Size: 500 subjects x 8 fingers x 5 impressions
+- Impression type: plain
 - Format: BMP, 512dpi, 328x356px
-- License: "research and educational purposes", requires acknowledgement, notification about new papers
+- License: bundled in [dataset description](http://www.idealtest.org/dbDetailForUser.do?id=7#/datasetDetail/7), prohibits publishing and redistribution
 - Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=7#/datasetDetail/7) (requires signup)
+- Documentation: [attached on download page](http://www.idealtest.org/dbDetailForUser.do?id=7#/datasetDetail/7)
 - Population: Chinese graduate students, workers, waiters, ...
 - Enrollment: artificial difficulty
 - Sensor: "URU4000" (probably U.are.U 4000 by Digital Persona, optical, 512dpi)
+
+### NIST Special Database 301 A
+
+Live fingerprint dataset collected by NIST using a wide variety of sensors.
+
+- Size: 51 subjects x 10 fingers x 14-15 impressions
+- Impression type: plain, rolled, 4-finger, 2-thumb, palm
+- Format: PNG, 500-1000dpi
+- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd301/request)
+- Download: via [request page](https://nigos.nist.gov/datasets/sd301/request)
+- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-301), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2002.pdf)
+- Population: US citizens
+- Enrollment: moderated
+- Sensor: 10 sensor types (5 optical, 2 solid-state, 3 touch-free)
 
 ### FVC2000 DB1 A
 
 The larger, hidden part of FVC2000 DB1, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 300x300px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Population: white students
 - Enrollment: unmoderated
 - Sensor: optical, 500dpi, Secure Desktop Scanner by KeyTronic
@@ -237,8 +285,10 @@ The larger, hidden part of FVC2000 DB1, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2000 DB2, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 256x364px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Population: white students
 - Enrollment: unmoderated
 - Sensor: capacitive, 500dpi, TouchChip by ST Microelectronics
@@ -248,8 +298,10 @@ The larger, hidden part of FVC2000 DB2, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2000 DB3, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 448x478px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Population: white, 5-73 years
 - Enrollment: partial QA
 - Sensor: optical, 500dpi, DF-90 by Identicator Technology
@@ -259,8 +311,10 @@ The larger, hidden part of FVC2000 DB3, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2000 DB4, one of the four datasets used in [FVC2000](http://bias.csr.unibo.it/fvc2000/default.asp) competition. This dataset is synthetic.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: synthetic plain
 - Format: TIFF, 500dpi, 240x320px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2000 datasets](http://bias.csr.unibo.it/fvc2000/databases.asp)
 - Generator: unknown
 
 ### FVC2002 DB1 A
@@ -268,8 +322,10 @@ The larger, hidden part of FVC2000 DB4, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2002 DB1, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 388x374px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 500dpi, TouchView II by Identix
@@ -279,8 +335,10 @@ The larger, hidden part of FVC2002 DB1, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2002 DB2, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 569dpi, 296x560px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 569dpi, FX2000 by Biometrika
@@ -290,8 +348,10 @@ The larger, hidden part of FVC2002 DB2, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2002 DB3, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 300x300px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: capacitive, 500dpi, 100 SC by Precise Biometrics
@@ -301,8 +361,10 @@ The larger, hidden part of FVC2002 DB3, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2002 DB4, one of the four datasets used in [FVC2002](http://bias.csr.unibo.it/fvc2002/) competition. This dataset is synthetic.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: synthetic plain
 - Format: TIFF, 500dpi, 288x384px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2002 datasets](http://bias.csr.unibo.it/fvc2002/databases.asp)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v2.51
 
 ### FVC2004 DB1 A
@@ -310,8 +372,10 @@ The larger, hidden part of FVC2002 DB4, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2004 DB1, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 640x480px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 500dpi, V300 by CrossMatch
@@ -321,8 +385,10 @@ The larger, hidden part of FVC2004 DB1, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2004 DB2, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 500dpi, 328x364px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: optical, 500dpi, U.are.U 4000 by Digital Persona
@@ -332,8 +398,10 @@ The larger, hidden part of FVC2004 DB2, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2004 DB3, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: plain
 - Format: TIFF, 512dpi, 300x480px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
 - Sensor: thermal sweep, 512dpi, FingerChip FCD4B14CB by Atmel
@@ -343,9 +411,41 @@ The larger, hidden part of FVC2004 DB3, one of the four datasets used in [FVC200
 The larger, hidden part of FVC2004 DB4, one of the four datasets used in [FVC2004](http://bias.csr.unibo.it/fvc2004/) competition. This dataset is synthetic.
 
 - Size: 100 fingers x 8 impressions
+- Impression type: synthetic plain
 - Format: TIFF, 500dpi, 288x384px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
+- Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
+
+### NIST Special Database 301 B
+
+Dataset of latent fingerprints of subjects from [NIST Special Database 301 A](#nist-special-database-301-a). Images are not tagged with finger position, only with subject ID. Strictly speaking, this is not a rectangular dataset. Latent fingerprints from this dataset are supposed to be matched with plain/rolled fingerprints from NIST Special Database 301 A. However, the large number of impressions means there is a large number of matching pairs within this dataset.
+
+- Size: 24 subjects x 50 impressions
+- Impression type: latent, finger and palm
+- Format: PNG, 1000-1500dpi
+- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd301/request)
+- Download: via [request page](https://nigos.nist.gov/datasets/sd301/request)
+- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-301), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2002.pdf)
+- Population: US citizens, subset of subjects from NIST Special Database 301 A
+- Activity: variety of activities that result in latent fingerprints
+- Technology: variety of latent fingerprint collection methods
+
+## Licensed pairsets
+
+### NIST Special Database 300
+
+Segmented scanned fingerprint cards from US law enforcement. This is technically a single impression dataset, but since every finger is present twice as rolled and flat impression, the dataset can be considered a pairset.
+
+- Size: 888 subjects x 10 fingers x 2 impressions
+- Impression type: plain, rolled, 4-finger
+- Format: PNG, 500/1000/2000dpi
+- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd300/request)
+- Download: via [request page](https://nigos.nist.gov/datasets/sd300/request)
+- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-300), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.1993.pdf)
+- Population: arrested US citizens
+- Enrollment: controlled but with some uncooperative subjects
+- Technology: scanned ink
 
 ## Uncategorized
 
