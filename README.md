@@ -20,6 +20,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [Neurotechnology UareU](#neurotechnology-uareu)
 - [Licensed rectangular datasets](#licensed-rectangular-datasets)
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
+    - [NIST Special Database 302](#nist-special-database-302)
     - [NIST Special Database 301 A](#nist-special-database-301-a)
     - [FVC2000 DB1 A](#fvc2000-db1-a)
     - [FVC2000 DB2 A](#fvc2000-db2-a)
@@ -33,9 +34,12 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB2 A](#fvc2004-db2-a)
     - [FVC2004 DB3 A](#fvc2004-db3-a)
     - [FVC2004 DB4 A](#fvc2004-db4-a)
-    - [NIST Special Database 301 B](#nist-special-database-301-b)
 - [Licensed pairsets](#licensed-pairsets)
     - [NIST Special Database 300](#nist-special-database-300)
+- [Licensed latent datasets](#licensed-latent-datasets)
+    - [NIST Special Database 302 E](#nist-special-database-302-e)
+    - [NIST Special Database 301 B](#nist-special-database-301-b)
+- [Other lists](#other-lists)
 - [Uncategorized](#uncategorized)
 
 ## Dataset classification
@@ -48,8 +52,9 @@ By access:
 
 By impression count:
 
-- rectangular dataset - Dataset has more than two impressions per finger. Rectangular datasets have some advantages in research.
+- rectangular dataset - There are more than two impressions per finger. Rectangular datasets have certain advantages in research due to the large number of matching pairs.
 - pairset - There are two impressions per finger. All natural datasets and thus all large datasets are pairsets.
+- latent dataset - Latent datasets contain latent fingerprints taken from objects. They typically do not identify finger, only subject. They are usually intended to be matched against plain/rolled fingerprints from another dataset.
 
 ## Public rectangular datasets
 
@@ -253,6 +258,20 @@ Large dataset collected by Chinese Academy of Sciences.
 - Enrollment: artificial difficulty
 - Sensor: "URU4000" (probably U.are.U 4000 by Digital Persona, optical, 512dpi)
 
+### NIST Special Database 302
+
+Live fingerprint dataset collected by NIST using a wide variety of sensors. It also includes latent fingerprints that have [their own entry](#nist-special-database-302-e) in this list.
+
+- Size: 200 subjects x 10 fingers x 12-18 impressions
+- Impression type: plain, rolled, 4-finger, 2-thumb, palm
+- Format: PNG, 500-1000dpi
+- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd302/request)
+- Download: via [request page](https://nigos.nist.gov/datasets/sd302/request)
+- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-302), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2007.pdf)
+- Population: volunteers from US
+- Enrollment: moderated
+- Sensor: 15 sensor types (7 optical, 3 solid-state, 5 touch-free)
+
 ### NIST Special Database 301 A
 
 Live fingerprint dataset collected by NIST using a wide variety of sensors.
@@ -263,7 +282,7 @@ Live fingerprint dataset collected by NIST using a wide variety of sensors.
 - License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd301/request)
 - Download: via [request page](https://nigos.nist.gov/datasets/sd301/request)
 - Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-301), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2002.pdf)
-- Population: US citizens
+- Population: volunteers from US
 - Enrollment: moderated
 - Sensor: 10 sensor types (5 optical, 2 solid-state, 3 touch-free)
 
@@ -417,20 +436,6 @@ The larger, hidden part of FVC2004 DB4, one of the four datasets used in [FVC200
 - Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
 
-### NIST Special Database 301 B
-
-Dataset of latent fingerprints of subjects from [NIST Special Database 301 A](#nist-special-database-301-a). Images are not tagged with finger position, only with subject ID. Strictly speaking, this is not a rectangular dataset. Latent fingerprints from this dataset are supposed to be matched with plain/rolled fingerprints from NIST Special Database 301 A. However, the large number of impressions means there is a large number of matching pairs within this dataset.
-
-- Size: 24 subjects x 50 impressions
-- Impression type: latent, finger and palm
-- Format: PNG, 1000-1500dpi
-- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd301/request)
-- Download: via [request page](https://nigos.nist.gov/datasets/sd301/request)
-- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-301), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2002.pdf)
-- Population: US citizens, subset of subjects from NIST Special Database 301 A
-- Activity: variety of activities that result in latent fingerprints
-- Technology: variety of latent fingerprint collection methods
-
 ## Licensed pairsets
 
 ### NIST Special Database 300
@@ -447,19 +452,54 @@ Segmented scanned fingerprint cards from US law enforcement. This is technically
 - Enrollment: controlled but with some uncooperative subjects
 - Technology: scanned ink
 
+## Licensed latent datasets
+
+### NIST Special Database 302 E
+
+Dataset of latent fingerprints of subjects from [NIST Special Database 302](#nist-special-database-302). Latent fingerprints from this dataset are supposed to be matched with plain/rolled fingerprints from NIST Special Database 302.
+
+- Size: 200 subjects x 50 impressions
+- Impression type: latent, finger and palm
+- Format: PNG, 1000-1500dpi
+- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd302/request)
+- Download: via [request page](https://nigos.nist.gov/datasets/sd302/request)
+- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-302), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2007.pdf)
+- Population: volunteers from US, subjects identical to NIST Special Database 302
+- Activity: variety of activities that result in latent fingerprints
+- Technology: variety of latent fingerprint collection methods
+
+### NIST Special Database 301 B
+
+Dataset of latent fingerprints of subjects from [NIST Special Database 301 A](#nist-special-database-301-a). Latent fingerprints from this dataset are supposed to be matched with plain/rolled fingerprints from NIST Special Database 301 A.
+
+- Size: 24 subjects x 50 impressions
+- Impression type: latent, finger and palm
+- Format: PNG, 1000-1500dpi
+- License: [simple confidentiality rules](https://nigos.nist.gov/datasets/sd301/request)
+- Download: via [request page](https://nigos.nist.gov/datasets/sd301/request)
+- Documentation: [overview page](https://www.nist.gov/itl/iad/image-group/nist-special-database-301), [user guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2002.pdf)
+- Population: volunteers from US, subset of subjects from NIST Special Database 301 A
+- Activity: variety of activities that result in latent fingerprints
+- Technology: variety of latent fingerprint collection methods
+
+## Other lists
+
+- [NIST Special Databases](https://www.nist.gov/itl/iad/image-group/resources/biometric-special-databases-and-software)
+- [FVC2000](http://bias.csr.unibo.it/fvc2000/download.asp), [FVC2002](http://bias.csr.unibo.it/fvc2002/download.asp), [FVC2004](http://bias.csr.unibo.it/fvc2004/download.asp)
+- [Luigi Rosa's list](http://www.advancedsourcecode.com/fingerprintdatabase.asp)
+- [CVonline](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#fingerprints)
+
 ## Uncategorized
 
 I did not have time to categorize sources listed below. Feel free to send PR.
 
-- [NIST Special Databases](https://www.nist.gov/itl/iad/image-group/resources/biometric-special-databases-and-software)
 - [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
 - [MINEX validation dataset](https://github.com/usnistgov/minex/tree/master/minexiii/validation/validation_imagery_raw)
 - [SOCOFing](https://www.kaggle.com/datasets/ruizgara/socofing)
 - [Tsinghua Palmprint Database](http://ivg.au.tsinghua.edu.cn/dataset/THUPALMLAB.php)
 - SFinGe
 - [L3 generator](https://andrewyzy.github.io/L3-SF/)
-- [random list](http://www.advancedsourcecode.com/fingerprintdatabase.asp)
-- other lists
+- [FVS by Shivang Patel](http://fvs.sourceforge.net/download.html)
 
 ## Contribute
 
