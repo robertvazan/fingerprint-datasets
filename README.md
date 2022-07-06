@@ -604,10 +604,10 @@ Datasets of some of these competitions might overlap. There's no way to know for
 
 - [FVC-onGoing Fingerprint Verification (FV)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFV.aspx)
 - [FVC-onGoing Palmprint Verification (PV)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaPV.aspx)
-- [FVC-onGoing Fingerprint Matching (ISO)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFMISO.aspx)
-- [FVC-onGoing Fingerprint Indexing](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFIDX.aspx)
-- [FVC-onGoing Fingerprint Orientation Extraction](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFOE.aspx)
-- [FVC-onGoing Secure Template Fingerprint Verification](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaSTFV.aspx
+- [FVC-onGoing Fingerprint Matching (FMISO)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFMISO.aspx)
+- [FVC-onGoing Fingerprint Indexing (FIDX)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFIDX.aspx)
+- [FVC-onGoing Fingerprint Orientation Extraction (FOE)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFOE.aspx)
+- [FVC-onGoing Secure Template Fingerprint Verification (STFV)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaSTFV.aspx)
 - [NIST Minutiae Interoperability Exchange (MINEX)](https://www.nist.gov/itl/iad/image-group/minutiae-interoperability-exchange-minex-iii)
 - [NIST Slap Fingerprint Segmentation Evaluation (SlapSeg)](https://www.nist.gov/itl/iad/image-group/slap-fingerprint-segmentation-evaluation-iii)
 - [NIST Proprietary Fingerprint Template (PFT)](https://www.nist.gov/itl/iad/image-group/proprietary-fingerprint-template-pft-iii)
