@@ -18,10 +18,16 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB4 B](#fvc2004-db4-b)
     - [Neurotechnology CrossMatch](#neurotechnology-crossmatch)
     - [Neurotechnology UareU](#neurotechnology-uareu)
+    - [FVS dataset](#fvs-dataset)
+    - [Tsinghua Palmprint Database](#tsinghua-palmprint-database)
 - [Licensed rectangular datasets](#licensed-rectangular-datasets)
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
     - [NIST Special Database 302](#nist-special-database-302)
     - [NIST Special Database 301 A](#nist-special-database-301-a)
+    - [FVC2006 DB1](#fvc2006-db1)
+    - [FVC2006 DB2](#fvc2006-db2)
+    - [FVC2006 DB3](#fvc2006-db3)
+    - [FVC2006 DB4](#fvc2006-db4)
     - [FVC2000 DB1 A](#fvc2000-db1-a)
     - [FVC2000 DB2 A](#fvc2000-db2-a)
     - [FVC2000 DB3 A](#fvc2000-db3-a)
@@ -34,11 +40,16 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [FVC2004 DB2 A](#fvc2004-db2-a)
     - [FVC2004 DB3 A](#fvc2004-db3-a)
     - [FVC2004 DB4 A](#fvc2004-db4-a)
+- [Public pairsets](#public-pairsets)
+    - [MINEX validation dataset](#minex-validation-dataset)
 - [Licensed pairsets](#licensed-pairsets)
     - [NIST Special Database 300](#nist-special-database-300)
 - [Licensed latent datasets](#licensed-latent-datasets)
     - [NIST Special Database 302 E](#nist-special-database-302-e)
     - [NIST Special Database 301 B](#nist-special-database-301-b)
+- [Public unpaired datasets](#public-unpaired-datasets)
+    - [SOCOFing](#socofing)
+- [Generators](#generators)
 - [Other lists](#other-lists)
 - [Uncategorized](#uncategorized)
 
@@ -55,6 +66,7 @@ By impression count:
 - rectangular dataset - There are more than two impressions per finger. Rectangular datasets have certain advantages in research due to the large number of matching pairs.
 - pairset - There are two impressions per finger. All natural datasets and thus all large datasets are pairsets.
 - latent dataset - Latent datasets contain latent fingerprints taken from objects. They typically do not identify finger, only subject. They are usually intended to be matched against plain/rolled fingerprints from another dataset.
+- unpaired - Unpaired datasets contain only one impression of every finger. They have somewhat limited applications.
 
 ## Public rectangular datasets
 
@@ -242,6 +254,28 @@ One of two sample datasets distributed by Neurotechnology.
 - Download: [download page](https://www.neurotechnology.com/download.html#databases), [direct download](https://www.neurotechnology.com/download/UareU_sample_DB.zip)
 - Sensor: optical, 500dpi, U.are.U 4000 by DigitalPersona
 
+### FVS dataset
+
+Small rectangular dataset shared by Shivang Patel as part of his [Fingerprint Verification System](http://fvs.sourceforge.net/about.html) project.
+
+- Size: 21 fingers x 8 impressions
+- Impression type: plain
+- Format: BMP, 256x256px, unknown DPI
+- License: unspecified, free download
+- Download: [download page](http://fvs.sourceforge.net/download.html), [direct download](http://fvs.sourceforge.net/fingerprint_bitmaps.zip)
+
+### Tsinghua Palmprint Database
+
+Tsinghua Palmprint Database (THUPALMLAB) contains palm prints without fingers.
+
+- Size: 80 subjects x 2 palms x 8 impressions
+- Impression type: palm
+- Format: BMP, 500dpi, 2040x2040px
+- License: for noncommercial research
+- Download: [download page](http://ivg.au.tsinghua.edu.cn/dataset/THUPALMLAB.php), [direct download](http://ivg.au.tsinghua.edu.cn/dataset/samples_THUPALMLAB/THUPALMLAB.rar)
+- Documentation: [paper](http://ivg.au.tsinghua.edu.cn/dataset/samples_THUPALMLAB/Robust%20and%20efficient%20ridge-based%20palmprint%20matching.pdf)
+- Sensor: Hisign
+
 ## Licensed rectangular datasets
 
 ### CASIA-FingerprintV5
@@ -285,6 +319,60 @@ Live fingerprint dataset collected by NIST using a wide variety of sensors.
 - Population: volunteers from US
 - Enrollment: moderated
 - Sensor: 10 sensor types (5 optical, 2 solid-state, 3 touch-free)
+
+### FVC2006 DB1
+
+One of the four datasets used in [FVC2006](http://bias.csr.unibo.it/fvc2006/default.asp) competition. It is split into A (140 fingers) and B (10 fingers) subsets.
+
+- Size: 150 fingers x 12 impressions
+- Impression type: plain
+- Format: BMP, 250dpi, 96x96px
+- License: signed 2-year [license agreement](http://atvs.ii.uam.es/atvs/licenses/FVC2006_License.pdf)
+- Download: see [instructions](http://atvs.ii.uam.es/atvs/fvc2006.html)
+- Documentation: [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
+- Population: white volunteers
+- Enrollment: unmoderated
+- Sensor: electric field sensor, 250dpi
+
+### FVC2006 DB2
+
+One of the four datasets used in [FVC2006](http://bias.csr.unibo.it/fvc2006/default.asp) competition. It is split into A (140 fingers) and B (10 fingers) subsets.
+
+- Size: 150 fingers x 12 impressions
+- Impression type: plain
+- Format: BMP, 569dpi, 400x560px
+- License: signed 2-year [license agreement](http://atvs.ii.uam.es/atvs/licenses/FVC2006_License.pdf)
+- Download: see [instructions](http://atvs.ii.uam.es/atvs/fvc2006.html)
+- Documentation: [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
+- Population: white volunteers
+- Enrollment: unmoderated
+- Sensor: electric field sensor, 250dpi
+
+### FVC2006 DB3
+
+One of the four datasets used in [FVC2006](http://bias.csr.unibo.it/fvc2006/default.asp) competition. It is split into A (140 fingers) and B (10 fingers) subsets.
+
+- Size: 150 fingers x 12 impressions
+- Impression type: sweep
+- Format: BMP, 500dpi, 400x500px
+- License: signed 2-year [license agreement](http://atvs.ii.uam.es/atvs/licenses/FVC2006_License.pdf)
+- Download: see [instructions](http://atvs.ii.uam.es/atvs/fvc2006.html)
+- Documentation: [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
+- Population: white volunteers
+- Enrollment: unmoderated
+- Sensor: electric field sensor, 250dpi
+
+### FVC2006 DB4
+
+One of the four datasets used in [FVC2006](http://bias.csr.unibo.it/fvc2006/default.asp) competition. It is split into A (140 fingers) and B (10 fingers) subsets.
+
+- Size: 150 fingers x 12 impressions
+- Impression type: synthetic plain
+- Format: BMP, 500dpi, 288x384px
+- License: signed 2-year [license agreement](http://atvs.ii.uam.es/atvs/licenses/FVC2006_License.pdf)
+- Download: see [instructions](http://atvs.ii.uam.es/atvs/fvc2006.html)
+- Documentation: [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
+- Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
 
 ### FVC2000 DB1 A
 
@@ -436,6 +524,18 @@ The larger, hidden part of FVC2004 DB4, one of the four datasets used in [FVC200
 - Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Generator: [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&) v3.0
 
+## Public pairsets
+
+### MINEX validation dataset
+
+Small public dataset that can be used to prepare submissions to [MINEX competition](https://www.nist.gov/itl/iad/image-group/minutiae-interoperability-exchange-minex-iii). Part of [MINEX validation tool](https://github.com/usnistgov/minex/tree/master/minexiii/validation).
+
+- Size: 50 subjects x 10 fingers x 2 impressions
+- Impression type: plain
+- Format: raw grayscale, [separate metadata](https://github.com/usnistgov/minex/blob/master/minexiii/validation/minexiii_validation_data.h), 500dpi
+- License: [permissive](https://github.com/usnistgov/minex/blob/master/LICENSE.md)
+- Download: [GitHub](https://github.com/usnistgov/minex/tree/master/minexiii/validation/validation_imagery_raw)
+
 ## Licensed pairsets
 
 ### NIST Special Database 300
@@ -482,24 +582,31 @@ Dataset of latent fingerprints of subjects from [NIST Special Database 301 A](#n
 - Activity: variety of activities that result in latent fingerprints
 - Technology: variety of latent fingerprint collection methods
 
+## Public unpaired datasets
+
+### SOCOFing
+
+Sokoto Coventry Fingerprint Dataset (SOCOFing) is a single impression dataset. Images are tagged with gender and finger position. Real images are complemented with synthetically damaged versions.
+
+- Size: 600 subjects x 10 fingers x 1 impression
+- Impression type: plain
+- Format: BMP, 500dpi, 96x103px
+- License: for noncommercial research, see [paper](https://arxiv.org/pdf/1807.10609.pdf)
+- Download: [Kaggle](https://www.kaggle.com/datasets/ruizgara/socofing)
+- Documentation: [Arxiv paper](https://arxiv.org/pdf/1807.10609.pdf)
+- Population: African
+- Sensor: Hamster Plus (HSDU03P), SecuGen SDU03P
+
+## Generators
+
+- [SFinGe](http://biolab.csr.unibo.it/research.asp?organize=Activities&select=&selObj=12&pathSubj=111%7C%7C12&)
+
 ## Other lists
 
 - [NIST Special Databases](https://www.nist.gov/itl/iad/image-group/resources/biometric-special-databases-and-software)
 - [FVC2000](http://bias.csr.unibo.it/fvc2000/download.asp), [FVC2002](http://bias.csr.unibo.it/fvc2002/download.asp), [FVC2004](http://bias.csr.unibo.it/fvc2004/download.asp)
 - [Luigi Rosa's list](http://www.advancedsourcecode.com/fingerprintdatabase.asp)
 - [CVonline](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#fingerprints)
-
-## Uncategorized
-
-I did not have time to categorize sources listed below. Feel free to send PR.
-
-- [FVC2006 datasets](http://bias.csr.unibo.it/fvc2006/databases.asp)
-- [MINEX validation dataset](https://github.com/usnistgov/minex/tree/master/minexiii/validation/validation_imagery_raw)
-- [SOCOFing](https://www.kaggle.com/datasets/ruizgara/socofing)
-- [Tsinghua Palmprint Database](http://ivg.au.tsinghua.edu.cn/dataset/THUPALMLAB.php)
-- SFinGe
-- [L3 generator](https://andrewyzy.github.io/L3-SF/)
-- [FVS by Shivang Patel](http://fvs.sourceforge.net/download.html)
 
 ## Contribute
 
