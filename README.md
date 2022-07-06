@@ -49,6 +49,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [NIST Special Database 301 B](#nist-special-database-301-b)
 - [Public unpaired datasets](#public-unpaired-datasets)
     - [SOCOFing](#socofing)
+- [Secret datasets](#secret-datasets)
 - [Generators](#generators)
 - [Other lists](#other-lists)
 - [Uncategorized](#uncategorized)
@@ -596,6 +597,21 @@ Sokoto Coventry Fingerprint Dataset (SOCOFing) is a single impression dataset. I
 - Documentation: [Arxiv paper](https://arxiv.org/pdf/1807.10609.pdf)
 - Population: African
 - Sensor: Hamster Plus (HSDU03P), SecuGen SDU03P
+
+## Secret datasets
+
+Datasets of some of these competitions might overlap. There's no way to know for sure, so all competitions are listed.
+
+- [FVC-onGoing Fingerprint Verification (FV)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFV.aspx)
+- [FVC-onGoing Palmprint Verification (PV)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaPV.aspx)
+- [FVC-onGoing Fingerprint Matching (ISO)](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFMISO.aspx)
+- [FVC-onGoing Fingerprint Indexing](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFIDX.aspx)
+- [FVC-onGoing Fingerprint Orientation Extraction](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaFOE.aspx)
+- [FVC-onGoing Secure Template Fingerprint Verification](https://biolab.csr.unibo.it/FVCOnGoing/UI/Form/BenchmarkAreas/BenchmarkAreaSTFV.aspx
+- [NIST Minutiae Interoperability Exchange (MINEX)](https://www.nist.gov/itl/iad/image-group/minutiae-interoperability-exchange-minex-iii)
+- [NIST Slap Fingerprint Segmentation Evaluation (SlapSeg)](https://www.nist.gov/itl/iad/image-group/slap-fingerprint-segmentation-evaluation-iii)
+- [NIST Proprietary Fingerprint Template (PFT)](https://www.nist.gov/itl/iad/image-group/proprietary-fingerprint-template-pft-iii)
+- [NIST Evaluation of Latent Friction Ridge Technology (ELFT)](https://www.nist.gov/itl/iad/image-group/evaluation-latent-friction-ridge-technology)
 
 ## Generators
 
