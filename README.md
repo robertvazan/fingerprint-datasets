@@ -619,10 +619,11 @@ Datasets of some of these competitions might overlap. There's no way to know for
 
 ## Other lists
 
-- [NIST Special Databases](https://www.nist.gov/itl/iad/image-group/resources/biometric-special-databases-and-software)
-- [FVC2000](http://bias.csr.unibo.it/fvc2000/download.asp), [FVC2002](http://bias.csr.unibo.it/fvc2002/download.asp), [FVC2004](http://bias.csr.unibo.it/fvc2004/download.asp)
+- :star: [NIST Biometric and Forensic Research Database Catalog](https://tsapps.nist.gov/BDbC/Search)
 - [Luigi Rosa's list](http://www.advancedsourcecode.com/fingerprintdatabase.asp)
 - [CVonline](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm#fingerprints)
+- [NIST Special Databases](https://www.nist.gov/itl/iad/image-group/resources/biometric-special-databases-and-software)
+- [FVC2000](http://bias.csr.unibo.it/fvc2000/download.asp), [FVC2002](http://bias.csr.unibo.it/fvc2002/download.asp), [FVC2004](http://bias.csr.unibo.it/fvc2004/download.asp)
 
 ## Contribute
 
