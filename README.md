@@ -20,6 +20,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [Neurotechnology UareU](#neurotechnology-uareu)
     - [FVS dataset](#fvs-dataset)
     - [Tsinghua Palmprint Database](#tsinghua-palmprint-database)
+    - [Birjand University Mobile Palmprint Database](#birjand-university-mobile-palmprint-database)
 - [Licensed rectangular datasets](#licensed-rectangular-datasets)
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
     - [NIST Special Database 302](#nist-special-database-302)
@@ -278,6 +279,19 @@ Tsinghua Palmprint Database (THUPALMLAB) contains palm prints without fingers.
 - Documentation: [paper](http://ivg.au.tsinghua.edu.cn/dataset/samples_THUPALMLAB/Robust%20and%20efficient%20ridge-based%20palmprint%20matching.pdf)
 - Sensor: Hisign
 
+### Birjand University Mobile Palmprint Database
+
+Contactless hand and palm photos from University of Birjand. Friction ridges are rarely visible.
+
+- Size: 41 subjects x 2 hands x 20 impressions
+- Impression type: contactless hand and palm, usually without friction ridges
+- Format: color JPEG, up to 2448x3264px, narrow DPI range
+- License: unknown
+- Download: [Kaggle](https://www.kaggle.com/datasets/mahdieizadpanah/birjand-university-mobile-palmprint-databasebmpd)
+- Documentation: [Kaggle page](https://www.kaggle.com/datasets/mahdieizadpanah/birjand-university-mobile-palmprint-databasebmpd)
+- Population: Iranian women
+- Enrollment: encoraged variation
+
 ## Licensed rectangular datasets
 
 ### CASIA-FingerprintV5
@@ -399,8 +413,8 @@ Multispectral hand dataset collected by Chinese Academy of Sciences. No friction
 - License: bundled in [dataset description](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6), prohibits publishing and redistribution
 - Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6) (requires signup)
 - Documentation: [attached on download page](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6)
-- Enrollment: pegs control hand position
 - Population: Chinese citizens
+- Enrollment: pegs control hand position
 - Sensor: custom
 
 ### FVC2000 DB1 A
