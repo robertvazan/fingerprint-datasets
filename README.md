@@ -52,7 +52,6 @@ Curated collection of human fingerprint datasets suitable for research and evalu
 - [Secret datasets](#secret-datasets)
 - [Generators](#generators)
 - [Other lists](#other-lists)
-- [Uncategorized](#uncategorized)
 
 ## Dataset classification
 
