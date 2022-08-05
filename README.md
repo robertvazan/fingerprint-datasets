@@ -386,6 +386,7 @@ Palmprint dataset collected by Chinese Academy of Sciences. No friction ridges.
 - License: bundled in [dataset description](http://www.idealtest.org/dbDetailForUser.do?id=5#/datasetDetail/5), prohibits publishing and redistribution
 - Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=5#/datasetDetail/5) (requires signup)
 - Documentation: [attached on download page](http://www.idealtest.org/dbDetailForUser.do?id=5#/datasetDetail/5)
+- Population: Chinese citizens
 - Sensor: custom
 
 ### CASIA-MS-PalmprintV1
@@ -399,6 +400,7 @@ Multispectral hand dataset collected by Chinese Academy of Sciences. No friction
 - Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6) (requires signup)
 - Documentation: [attached on download page](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6)
 - Enrollment: pegs control hand position
+- Population: Chinese citizens
 - Sensor: custom
 
 ### FVC2000 DB1 A
