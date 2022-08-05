@@ -20,6 +20,7 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [Neurotechnology UareU](#neurotechnology-uareu)
     - [FVS dataset](#fvs-dataset)
     - [Tsinghua Palmprint Database](#tsinghua-palmprint-database)
+    - [COEP Palm Print Database](#coep-palm-print-database)
     - [Birjand University Mobile Palmprint Database](#birjand-university-mobile-palmprint-database)
 - [Licensed rectangular datasets](#licensed-rectangular-datasets)
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
@@ -279,6 +280,20 @@ Tsinghua Palmprint Database (THUPALMLAB) contains palm prints without fingers.
 - Documentation: [paper](http://ivg.au.tsinghua.edu.cn/dataset/samples_THUPALMLAB/Robust%20and%20efficient%20ridge-based%20palmprint%20matching.pdf)
 - Sensor: Hisign
 
+### COEP Palm Print Database
+
+Contactless right hand photos. Friction ridges are rarely visible.
+
+- Size: 168 subjects x 1 hand x 8 impressions
+- Impression type: contactless right hand, usually without friction ridges
+- Format: color JPEG, 1600x1200px, narrow DPI range
+- License: [free download](https://www.coep.org.in/resources/coeppalmprintdatabase)
+- Download: [download page](https://www.coep.org.in/resources/coeppalmprintdatabase), [direct download](http://www.coep.org.in/page_assets/250/database.zip)
+- Documentation: [homepage](https://www.coep.org.in/resources/coeppalmprintdatabase)
+- Population: citizens of India
+- Enrollment: pegs fix hand position
+- Sensor: digital camera
+
 ### Birjand University Mobile Palmprint Database
 
 Contactless hand and palm photos from University of Birjand. Friction ridges are rarely visible.
@@ -291,6 +306,7 @@ Contactless hand and palm photos from University of Birjand. Friction ridges are
 - Documentation: [Kaggle page](https://www.kaggle.com/datasets/mahdieizadpanah/birjand-university-mobile-palmprint-databasebmpd)
 - Population: Iranian women
 - Enrollment: encoraged variation
+- Sensor: digital camera
 
 ## Licensed rectangular datasets
 
