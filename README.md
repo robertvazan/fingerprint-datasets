@@ -24,6 +24,8 @@ Curated collection of human fingerprint datasets suitable for research and evalu
     - [CASIA-FingerprintV5](#casia-fingerprintv5)
     - [NIST Special Database 302](#nist-special-database-302)
     - [NIST Special Database 301 A](#nist-special-database-301-a)
+    - [CASIA-PalmprintV1](#casia-palmprintv1)
+    - [CASIA-MS-PalmprintV1](#casia-ms-palmprintv1)
     - [FVC2006 DB1](#fvc2006-db1)
     - [FVC2006 DB2](#fvc2006-db2)
     - [FVC2006 DB3](#fvc2006-db3)
@@ -319,6 +321,31 @@ Live fingerprint dataset collected by NIST using a wide variety of sensors.
 - Population: volunteers from US
 - Enrollment: moderated
 - Sensor: 10 sensor types (5 optical, 2 solid-state, 3 touch-free)
+
+### CASIA-PalmprintV1
+
+Palmprint dataset collected by Chinese Academy of Sciences. No friction ridges.
+
+- Size: 312 subjects x 2 hands x 8 impressions
+- Impression type: contactless palm without friction ridges
+- Format: grayscale JPEG, 640x480px, variable DPI
+- License: bundled in [dataset description](http://www.idealtest.org/dbDetailForUser.do?id=5#/datasetDetail/5), prohibits publishing and redistribution
+- Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=5#/datasetDetail/5) (requires signup)
+- Documentation: [attached on download page](http://www.idealtest.org/dbDetailForUser.do?id=5#/datasetDetail/5)
+- Sensor: custom
+
+### CASIA-MS-PalmprintV1
+
+Multispectral hand dataset collected by Chinese Academy of Sciences. No friction ridges.
+
+- Size: 100 subjects x 2 hands x 6 impressions x 6 wavelengths
+- Impression type: contactless hand without friction ridges
+- Format: grayscale JPEG, 768x576px, variable DPI
+- License: bundled in [dataset description](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6), prohibits publishing and redistribution
+- Download: [download page](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6) (requires signup)
+- Documentation: [attached on download page](http://www.idealtest.org/dbDetailForUser.do?id=6#/datasetDetail/6)
+- Enrollment: pegs control hand position
+- Sensor: custom
 
 ### FVC2006 DB1
 
