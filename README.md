@@ -202,13 +202,13 @@ Small sample of FVC2004 DB2, one of the four datasets used in [FVC2004](http://b
 
 - Size: 10 fingers x 8 impressions
 - Impression type: plain
-- Format: TIFF, 500dpi, 328x364px
+- Format: TIFF, 512dpi, 328x364px
 - License: unspecified, free download
 - Download: [download page](http://bias.csr.unibo.it/fvc2004/download.asp), [direct download](http://bias.csr.unibo.it/fvc2004/Downloads/DB2_B.zip)
 - Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
-- Sensor: optical, 500dpi, U.are.U 4000 by Digital Persona
+- Sensor: optical, 512dpi, U.are.U 4000 by Digital Persona
 
 ### FVC2004 DB3 B
 
@@ -253,10 +253,10 @@ One of two sample datasets distributed by Neurotechnology.
 
 - Size: 65 fingers x 8 impressions
 - Impression type: plain
-- Format: TIFF, 500dpi, 326x357px
+- Format: TIFF, 512dpi, 326x357px
 - License: unspecified, free download
 - Download: [download page](https://www.neurotechnology.com/download.html#databases), [direct download](https://www.neurotechnology.com/download/UareU_sample_DB.zip)
-- Sensor: optical, 500dpi, U.are.U 4000 by DigitalPersona
+- Sensor: optical, 512dpi, U.are.U 4000 by DigitalPersona
 
 ### FVS dataset
 
@@ -552,12 +552,12 @@ The larger, hidden part of FVC2004 DB2, one of the four datasets used in [FVC200
 
 - Size: 100 fingers x 8 impressions
 - Impression type: plain
-- Format: TIFF, 500dpi, 328x364px
+- Format: TIFF, 512dpi, 328x364px
 - Cost: [~140€](http://bias.csr.unibo.it/maltoni/handbook/) (includes all 12 FVC datasets and a book)
 - Documentation: [FVC2004 datasets](http://bias.csr.unibo.it/fvc2004/databases.asp)
 - Population: white students
 - Enrollment: artificial difficulty
-- Sensor: optical, 500dpi, U.are.U 4000 by Digital Persona
+- Sensor: optical, 512dpi, U.are.U 4000 by Digital Persona
 
 ### FVC2004 DB3 A
 
