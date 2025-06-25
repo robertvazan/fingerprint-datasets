@@ -649,7 +649,7 @@ Sokoto Coventry Fingerprint Dataset (SOCOFing) is a single impression dataset. I
 
 - Size: 600 subjects x 10 fingers x 1 impression
 - Impression type: plain
-- Format: BMP, 500dpi, 96x103px
+- Format: BMP, declared 500dpi, really 96x103px @ ~200dpi
 - License: for noncommercial research, see [paper](https://arxiv.org/pdf/1807.10609.pdf)
 - Download: [Kaggle](https://www.kaggle.com/datasets/ruizgara/socofing)
 - Documentation: [Arxiv paper](https://arxiv.org/pdf/1807.10609.pdf)
